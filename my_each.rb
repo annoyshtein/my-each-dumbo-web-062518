@@ -6,4 +6,7 @@ def my_each(collection)
       i = i + 1
     end
     array
+  else
+    puts "Hey! No block was given!"
+  end  
 end
